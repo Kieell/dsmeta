@@ -1,8 +1,13 @@
+import NotificationButton from "./components/notificationButton"
 
-
-function App() {
+function App(): JSX.Element {
   return (
-    <h1>Olá mundo!</h1>
+    <>
+
+      <h1>Olá mundo!</h1>
+      <NotificationButton />
+
+    </>
   )
 }
 
